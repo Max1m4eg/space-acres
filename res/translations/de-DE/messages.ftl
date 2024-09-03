@@ -20,12 +20,10 @@ loading_title = lade
 loading_configuration_title = lade Konfiguration
 loading_configuration_step_loading = lade Konfiguration...
 loading_configuration_step_reading = lese Konfiguration...
-# TODO: Translate
 loading_configuration_step_configuration_exists = überprüfe Konfiguration...
-# TODO: Translate
 loading_configuration_step_configuration_not_found = überprüfe Konfiguration...
 loading_configuration_step_configuration_checking = überprüfe Konfiguration...
-loading_configuration_step_configuration_valid = konfiguration ist gültig
+loading_configuration_step_configuration_valid = Konfiguration ist gültig
 loading_configuration_step_decoding_chain_spec = entschlüssele die Chain-Spezifikation...
 loading_configuration_step_decoded_chain_spec = Chain-Spezifikation erfolgreich entschlüsselt
 loading_networking_stack_title = initialisiere Netzwerk-Stack
@@ -189,20 +187,17 @@ status_bar_message_configuration_is_invalid = Konfiguration ist ungültig: {$err
 status_bar_message_restart_is_needed_for_configuration = Ein Neustart der Anwendung ist erforderlich, damit die Konfigurationsänderungen wirksam werden
 status_bar_message_failed_to_save_configuration = Fehler beim Speichern der Konfigurationsänderungen: {$error}
 status_bar_message_restarted_after_crash = Space Acres wurde nach einem Absturz automatisch neu gestartet. Überprüfe die Anwendungs- und Systemprotokolle für Details
-# TODO: Translate
-status_bar_message_unoptimized_node_db = Node database is unoptimized and needs re-syncing for optimal performance
+status_bar_message_unoptimized_node_db = Die Node-Datenbank ist nicht optimiert und muss neu synchronisiert werden, um eine optimale Leistung zu gewährleisten
 status_bar_button_restart = Neustart
 status_bar_button_ok = Ok
-# TODO: Translate
-status_bar_button_resync_node = Resync node
+status_bar_button_resync_node = Node neu synchronisieren
 
 about_system_information =
     Konfigurationsverzeichnis: {$config_directory}
     Datenverzeichnis (einschließlich Protokolle): {$data_directory}
 
 tray_icon_open = öffnen
-# TODO: Check translation
-tray_icon_quit = Aufhören
+tray_icon_quit = beenden
 
 notification_app_minimized_to_tray = Space Acres wurde in die Taskleiste minimiert
     .body = Du kannst es wieder öffnen oder komplett beenden, indem du das Menü des Tray-Symbols verwendest
